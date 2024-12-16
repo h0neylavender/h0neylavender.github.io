@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+.background{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin: 0%;
+}
+
+.Eve{
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    border: 0;
+    top: 20%;
+    right: -1.5%;
+}
+.Micah{
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    border: 0;
+    top: 39%;
+    left: 35%;
+}
+.left{
+    bottom: 430px;
+    height: 40px;
+    right: 70px;
+    position:fixed;
+    background-color: beige;
+    color: black;
+    z-index: 3;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: beige;
+    font-family: Fleur De Leah, Lavishly Yours;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+
+}
